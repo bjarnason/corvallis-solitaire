@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ main.cpp state.cpp compactState.cpp uctNode.cpp feature.cpp hcFeature.cpp card.cpp -o $1
+g++ main.cpp initPolicy.h rollOut.h rollOutUtil.h state.cpp compactState.cpp uctNode.cpp feature.cpp hcFeature.cpp card.cpp -o $1
